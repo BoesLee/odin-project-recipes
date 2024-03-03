@@ -1,0 +1,50 @@
+body {
+  font-family: "Brush Script MT", cursive, "Courier New", Courier, monospace, "Times New Roman", Times, serif;
+  font-size: 22px;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 33px;
+  text-decoration-line: underline;
+}
+
+ol {
+  list-style: decimal;
+}
+ul {
+  list-style: disc;
+}
+li::marker {
+  font-size: 11px;
+}
+
+.back {
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 160);
+  font-style: oblique;
+  text-shadow: rgb(255, 0, 0) 1px 0 10px;
+}
+.text {
+  text-transform:none;
+}
+
+.box {
+  font-weight: 450;
+  border: 3px double black;
+  border-radius: 11px;
+  padding-left: 50px
+}
+
+.choice {
+  padding: 10px;
+}
+
+.note {
+  font-size: 11px;
+  padding-bottom: 5px;
+}
