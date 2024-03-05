@@ -1,50 +1,131 @@
-body {
-  font-family: "Brush Script MT", cursive, "Courier New", Courier, monospace, "Times New Roman", Times, serif;
-  font-size: 22px;
-}
+/* Grouping Selectors */
 
 h1 {
-  font-size: 44px;
+  font-size: 122px;
 }
 
 h2 {
-  font-size: 33px;
-  text-decoration-line: underline;
+  font-size: 66px;
+  margin-bottom: -15px;
+  margin-top: 25px;
+}
+
+h3 {
+  font-size: 44px;
+  margin-bottom: -1px;
+  margin-top: 25px;
+}
+
+/* List Elements */
+li {
+  padding-left:10px;
+}
+
+ul {
+  list-style: disc;
+}
+
+ul li::marker {
+  font-size: 8px;
 }
 
 ol {
   list-style: decimal;
 }
-ul {
-  list-style: disc;
-}
-li::marker {
-  font-size: 11px;
+
+ol li::marker {
+  font-size: 16px;
 }
 
-.back {
-  background-size: cover;
-  background-position: center;
-  color: rgb(255, 255, 160);
-  font-style: oblique;
-  text-shadow: rgb(255, 0, 0) 1px 0 10px;
-}
+/* Class Selectors */
+
 .text {
-  text-transform:none;
+  color: rgb(90, 60, 55);
+  font-family: "Brush Script MT", cursive, "Courier New", Courier, monospace, "Times New Roman", Times, serif;
+  font-size: 22px;
+  text-shadow: rgb(90, 60, 55) 1px 0 10px;
+  text-shadow:  rgb(255, 255, 160) 1px 0 10px;
+}
+
+.top {
+  background-image: url(images/top.jpg);
+  background-position: top;
+  background-size: cover;
+  font-size: 33px;
+  color: rgb(255, 255, 160);
+  text-shadow:  rgb(90, 60, 55) 1px 0 10px;
+}
+
+.center {
+  background-image: url(images/center.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.nospoon {
+  background-image: url(images/nospooncenter.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.bottom {
+  background-image: url(images/bottom.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .box {
-  font-weight: 450;
   border: 3px double black;
   border-radius: 11px;
-  padding-left: 50px
+  display: block;
+  font-weight: 450;
+  margin: 30px;
+  padding-left: 50px;
 }
+
+.button {
+  background-image: url(images/button.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  display: inline-block;
+  padding: 100px;
+  margin: 80px;
+  outline: rgb(120, 100, 55) solid 3px;
+}
+
 
 .choice {
   padding: 10px;
 }
 
-.note {
+.footer {
+  color: rgb(255, 255, 160);
+  text-shadow:  rgb(90, 60, 55) 1px 0 10px;
+  padding-right: 50px;
+  text-align: right;
   font-size: 11px;
+}
+
+.note {
   padding-bottom: 5px;
+  font-size: 11px;
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.break {
+  border: 3px double black;
+  border-radius: 11px;
+  color: rgb(255, 255, 160);
+  text-shadow:  rgb(90, 60, 55) 1px 0 10px;
+  display: block;
+  font-weight: 450;
+  margin: 20px;
+  padding: 20px 30px;
+  width: max-content;
+  text-align: center;
 }

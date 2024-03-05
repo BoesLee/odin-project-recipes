@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Recipes - Index</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li>
-            <a href="recipes/lasagna.html"> Some Belgian's Spicy Lasagna</a>
-        </li>
-        <li>
-            <a href="recipes/vol-au-vent.html"> Some Belgian's Vol-au-vent</a>
-        </li>
-        <li>
-            <a href="recipes/croque.html"> Some Belgian's "Winter" Croque</a>
-        </li>
-    </ul>
+    <div>
+        <div class="box text top">
+            <h1>
+                Odin Recipes
+            </h1>
+        </div>
+        <div class="box center" style="background-position: center;">
+            <a href="recipes/croque.html" class="box button" style ="background-image: url(images/croque.jpg);"></a>
+            <a href="recipes/lasagna.html" class="box button" style ="background-image: url(images/lasagna.png);"></a>
+            <a href="recipes/vol-au-vent.html" class="box button" style ="background-image: url(images/vol-au-vent.webp);"></a>
+        </div>
+    </div>
+    <div class = "box text footer bottom" >
+        <p>
+            Random <small>©</small> Whatever
+        </p>
+    </div>
 </body>
 </html>
