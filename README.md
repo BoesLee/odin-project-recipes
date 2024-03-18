@@ -2,5 +2,5 @@ A brief introduction describing what the current project is and what skills you 
 
 - Made an HTML with alot of list related elements
 - Used [W3](https://validator.w3.org/) Validator
-- Still looks shitty
-- Should probably remove retarded capital letter use, someday. Thanks brain!
+- Still looks shitty, mostly on purpose
+- <del>Should probably remove retarded capital letter use, someday. Thanks brain!</del>
